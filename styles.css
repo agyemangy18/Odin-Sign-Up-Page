@@ -1,0 +1,123 @@
+:root{
+    --top-bottom: #f9fafb;
+    --green: #596d48;
+}
+body{
+    margin: 0;
+    padding-top: 0;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.left-box{
+    width: 35vw;
+    height: 100%;
+    background-image: url(Background-Img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo-box{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    opacity: 0.6;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+
+    top: 20vh;
+}
+.right-box{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+.top-box{
+    background-color: var(--top-bottom);
+    color: black;
+    height: 35vh;
+    font-size: 30px;
+    padding-left: 70px;
+    font-weight:bolder;
+}
+.first-msg{
+    padding-top: 210px;
+    padding-bottom: 50px;
+    width: 700px;
+ 
+
+}
+
+.middle-box{
+    display: flex;
+    height: 30vh;
+
+}
+.bottom-box{
+    background-color: var(--top-bottom);
+    height: 35vh;
+    
+}
+.mid-txt{
+    font-size: 30px;
+    font-weight: bolder;
+   margin-left: 70px;
+   padding-top: 40px;
+    
+}
+.first-middle-box{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 40%;
+    padding-left: 70px;
+}
+
+.second-middle-box{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+label{
+    font-size: 20px;
+
+}
+input{
+    border-color: #e5e7eb;
+    width: 320px;
+    height: 50px;
+}
+input:valid{
+    border-color: blue;
+}
+input:invalid{
+    background-color: blue;
+}
+.create-acc{
+    margin-top: 40px;
+    margin-left: 70px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: var(--green);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.last-msg{
+    margin-top: 50px;
+    margin-left: 70px;
+    font-weight: bold;
+    font-size: 25px
+}
+.log-in{
+    color: var(--green);
+    font-weight: bolder;
+}
