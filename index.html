@@ -5,52 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
 </head>
 <body>
     <div class="main">
         <div class="left-box">
             <div class="logo-box">
-                <div class="for-Image">
-                    <!-- <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"> -->
-                </div>
-                <h1>ODIN</h1>   
+                <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png">
+                <div class="logo-msg">ODIN</div>   
             </div>
-            <div class="footer">
-            </div>    
+            <div class="footer">Photo by Hallie Weston on Unsplash</div>    
         </div>
         <div class="right-box">
                 <div class="top-box">
-                    <div class = "first-msg">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</div>
-                    <div>You know you want to.</div>
+                    <h3 style = "width: 100%x">
+                        This is not a real online service! You know you need somthing <br/>
+                        like this in youe life to help you realize your deepest dreams. <br/>
+                        Sign up <em>now</em> to get started
+                        <br/><br/>
+                        You <em>know</em> know you want to
+                    </h3>
                 </div>
-                <div class="mid-txt">Let's do this!</div>
                 <div class="middle-box">
-                    <div class="first-middle-box">
-                        <label for="first_name">First Name:</label>
-                        <input type="text" id="first_name" name="first_name">
-
-                        <label for="email">EMAIL:</label>
-                        <input type="email" id="email" name="email">
-
-                        <label for="password">Password:</label>
-                        <input type="password" id="password" name="password">
-                    </div>
-                    <div class="second-middle-box">
-                        <label for="last_name">Last Name:</label>
-                        <input type="text" id="last_name" name="last_name">
-
-                        <label for="phone_number">Phone number:</label>
-                        <input type="number" id="phone_number" name="phone_number">
-
-                        <label for="password">Confirm Password:</label>
-                        <input type="password" id="password" name="password">
-
-                    </div>
+                    <h3 style = "margin: 50px">Let's do this!</h3>
+                    <form action="" method="get" class = "form-main-div">
+                        <div class="form-divs">
+                            <div class="form-div">
+                                <label for="first_name">FIRST NAME</label>
+                                <input type="text" id="first_name" name="first_name">
+                            </div>
+                            <div class="form-div">
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" name="emal">
+                            </div>
+                            <div class="form-div">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" id="password" name="password" required>
+                                <div id = "error"></div>
+                            </div>
+                        </div>
+                        <div class="form-divs">
+                            <div class="form-div">
+                                <label for="last_name">LAST NAME</label>
+                                <input type="text" id="last_name" name="last_name">
+                            </div>
+                            <div class="form-div">
+                                <label for="phone_number">PHONE NUMBER</label>
+                                <input type="tel" id="phone_number" name="phone_number">
+                            </div>
+                            <div class="form-div">
+                                <label for="password">CONFIRM PASSWORD</label>
+                                <input type="password" id="confirm-password" name="confirm-password" required>
+                            </div>  
+                        </div>
+                    </form>
                 </div>
                 <div class="bottom-box">
                     <button class = create-acc>Create Account</button>
                     <div class="last-msg">Already have an acount? <span class = "log-in">Log in</span></div>
                 </div>
+        </div>
+                
 
         </div>
         
